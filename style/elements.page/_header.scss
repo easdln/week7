@@ -1,0 +1,29 @@
+// вначале всегда должны быть импорты //
+@import '../vars';
+
+header {
+    max-width: 11328px;
+    max-height: 82px;
+    header__logo {
+        margin: 29px 588px 29px 24px;
+    }
+
+    header__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        nav__link {
+            padding: 0px 20px;
+        }
+        
+        nav__link_grey {
+            width: 114px;
+            height: 42px;
+            flex-shrink: 0;
+            border-radius: 3px;
+            background: #DDDBDA;
+        }
+    }
+}
